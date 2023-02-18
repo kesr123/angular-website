@@ -1,0 +1,24 @@
+
+    h1{
+        text-align: left;
+        
+        color:red;
+
+    }
+    .center{
+        display:inline-block;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+  
+    p{
+        align-content:center;
+        text-align:justify;
+        
+        font-size: large;
+        font-weight: 100;
+        color: black;
+
+    }

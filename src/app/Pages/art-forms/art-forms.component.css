@@ -1,0 +1,38 @@
+.card{
+height: 427px;
+background-image: linear-gradient(40deg, #BDEDFF 0%, #FF69B4 45%,#FAF884 100%);
+display: -webkit-box;
+-webkit-box-orient: vertical;
+overflow: hidden;
+font-family: "MockFlowFont";  
+font-size: .8em; 
+
+position: relative;
+border-radius: 15px;
+
+
+margin-bottom: 30px;
+padding: 20px ;
+border-radius: 15px;
+
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    
+  
+
+
+   
+}
+
+img{
+    
+  
+    
+    height:230px;
+    width: 250px;
+    
+    
+    
+}
+
+

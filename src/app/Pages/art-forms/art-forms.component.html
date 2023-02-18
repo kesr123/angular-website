@@ -1,0 +1,25 @@
+<body style=background-color:white>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-3 col-3" *ngFor="let i of artform">
+    <div class="card" style="width: 18rem;">
+    <img class="card-image-top" src="../assets/image/{{i.img}}" alt="" height="400px">
+    <div class="card-body">
+     <h5 class="card-title">{{i.name}}</h5>
+      <p class="card-text" style="height:70px">{{i.desc}}</p>
+             <!----  <a href="#" class="btn btn-primary">view more</a> -->
+      <a (click)="gotoHere(i.id)" class="btn btn-primary">For more</a>
+
+
+      </div>
+      </div>
+     </div>
+      </div>
+    </div>
+    </body>
+            
+                
+                
+                
+            
+ 
